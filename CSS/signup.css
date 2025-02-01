@@ -1,0 +1,72 @@
+.modal {
+  min-width: 28rem;
+  color: #fff;
+}
+
+.signup-modal-content {
+  width: 100% !important;
+}
+
+.btn-close {
+  background-color: #fff !important;
+  margin-right: 0.4rem !important;
+}
+
+.signup-form label {
+  padding-left: 0.5rem;
+  font-size: 1.4rem;
+}
+
+.signup-form input {
+  width: 100%;
+  padding: 0.6rem;
+  font-size: 1.4rem;
+  font-family: inherit;
+  margin-bottom: 1.2rem;
+  border-radius: 1rem;
+}
+
+.signup-form select {
+  width: 100%;
+  padding: 0.6rem;
+  font-size: 1.4rem;
+  font-family: inherit;
+  margin-bottom: 1.2rem;
+  border-radius: 1rem;
+}
+
+.signup-form-btn {
+  background-color: #66778b !important;
+  color: #fff;
+  font-size: 1.4rem !important;
+  border-radius: 0.5rem;
+  margin-top: 0.8rem;
+  padding: 0.6rem 1.2rem !important;
+  transition: all 0.3s;
+}
+
+.signup-form-btn:hover {
+  color: #000;
+  box-shadow: inset 0 0 0 1px #000;
+}
+
+.login-redirect {
+  font-size: 1.2rem;
+}
+
+.signup-text {
+  display: inline-block;
+  margin: 1.4rem 0;
+  color: #fff;
+}
+
+.login-link:link,
+.login-link:visited {
+  text-decoration: none !important;
+}
+
+.login-link:hover,
+.login-link:active {
+  color: #fff;
+  font-weight: 600;
+}

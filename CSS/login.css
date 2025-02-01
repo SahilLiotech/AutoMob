@@ -1,0 +1,106 @@
+.modal {
+  min-width: 28rem !important;
+  color: #fff !important;
+}
+
+.modal-content {
+  width: 70% !important;
+  background-color: #03071e !important;
+}
+
+.login-logo-img {
+  margin-right: 0.4rem;
+}
+
+.login-icon {
+  padding: 1.2rem 0;
+  margin-bottom: 0.8rem;
+}
+
+.login-icon img {
+  background-color: #fff;
+  border-radius: 50%;
+  width: 20% !important;
+}
+
+.login-modal-form label {
+  font-size: 1.2rem;
+}
+
+.login-modal-form input {
+  /* width: 100%; */
+  padding: 0.8rem;
+  font-size: 1.4rem;
+  font-family: inherit;
+  margin-bottom: 1.2rem;
+  border-radius: 1rem;
+}
+
+.login-form-btn {
+  background-color: #66778b !important;
+  color: #fff !important;
+  font-size: 1.4rem !important;
+  border-radius: 0.5rem !important;
+  margin-top: 0.8rem !important;
+  padding: 0.6rem 1.2rem !important;
+  transition: all 0.3s !important;
+}
+
+.login-form-btn:hover {
+  color: #000 !important;
+  box-shadow: inset 0 0 0 1px #000;
+}
+
+.signup-redirect {
+  font-size: 1.2rem;
+}
+
+.login-text {
+  display: inline-block;
+  margin-top: 1.4rem;
+  color: #fff;
+}
+
+.signup-link:link,
+.signup-link:visited {
+  text-decoration: none !important;
+}
+
+.signup-link:hover,
+.signup-link:active {
+  color: #fff;
+  font-weight: 600;
+}
+
+/**************************** Profile Modal ***************************/
+
+.profile-heading {
+  font-size: 1.8rem;
+}
+
+.profile-headings {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.profile-text {
+  margin: 0.6rem 0;
+  font-size: 1.4rem;
+}
+
+.logout-link {
+  display: inline-block;
+  font-size: 1.6rem;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 0.5rem;
+}
+
+.logout-link img {
+  width: 1.8rem;
+}
+
+.fnm,
+.lnm {
+  text-transform: uppercase;
+}

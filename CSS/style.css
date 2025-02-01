@@ -1,0 +1,433 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Roboto Condensed', 'sans-serif' !important;
+  background-color: #f0f0f0;
+  overflow-x: hidden !important;
+  padding-top: 6.6rem;
+}
+
+/*********************** Header Section ****************************/
+
+#header {
+  background-color: #03071e;
+  padding: 0.8rem 1.2rem;
+  min-width: 28rem;
+}
+
+span {
+  color: #436f70;
+}
+
+#logo-container {
+  color: #fff;
+  font-family: 'roboto';
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.logo-img {
+  width: 3rem !important;
+  height: 3rem;
+}
+
+#menu-icon {
+  background-color: #fff;
+  width: 4rem;
+  height: 3rem;
+}
+
+.main-nav {
+  gap: 3.2rem;
+  align-items: center;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+.nav-link:link,
+.nav-link:visited {
+  color: #fff;
+  font-size: 1.6rem;
+  transition: all 0.3s;
+}
+
+.nav-link:hover,
+.nav-link:active {
+  color: #66778b !important;
+  font-weight: 700;
+}
+
+.login-btn:link,
+.login-btn:visited {
+  color: #001125;
+  background-color: #99a5b1 !important;
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  margin: 0.5rem 0;
+  transition: all 0.3s;
+}
+
+.login-btn:hover,
+.login-btn:active {
+  color: #fff !important;
+}
+
+.u-icon {
+  color: #03071e !important;
+  font-weight: bold !important;
+  font-size: 1.4rem !important;
+  text-transform: uppercase !important;
+  background-color: #99a5b1;
+  padding: 0.6rem 1.2rem !important;
+  border-radius: 0.5rem !important;
+}
+
+/******************************** Hero Section **************************************/
+
+.hero {
+  background-color: #99a5b1;
+  margin: 0 auto;
+  padding: 6.4rem 2.4rem;
+  background-image: linear-gradient(to right, #99a5b1, rgb(3, 7, 30, 0.7));
+  min-width: 28rem;
+}
+
+.hero-heading {
+  font-size: 4.4rem;
+  font-weight: 700;
+  line-height: 1.05;
+  letter-spacing: -2px;
+  margin-bottom: 3.2rem;
+}
+
+.hero-description {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  margin-bottom: 4.8rem;
+  color: #1A1A1A;
+}
+
+.hero-btn:link,
+.hero-btn:visited {
+  display: inline-block;
+  background-color: #03071e;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.8rem;
+  padding: 1.6rem 3.2rem;
+  border-radius: 0.3rem;
+  transition: all 0.5s;
+}
+
+.hero-btn:hover,
+.hero-btn:active {
+  background-color: #66778b;
+  box-shadow: inset 0 0 0 1px #000;
+}
+
+/*************************************** Find section  *****************************************************/
+
+.section-find {
+  padding: 2.4rem 3.2rem;
+  margin: 3.6rem 0;
+  background-color: #fff;
+  box-shadow: inset 0 0.1rem 0.3rem rgba(0, 0, 0, .18), 0 0.1rem 0.1rem 0 rgba(0, 0, 0, .17);
+  min-width: 28rem;
+}
+
+.find-heading {
+  font-size: 2.4rem;
+}
+
+.find-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 2.4rem;
+  margin-top: 2.4rem !important;
+}
+
+.find-card {
+  height: 20rem;
+  width: 20rem;
+  background-color: #f0f2f4;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 0.1rem 0.1rem rgba(62, 62, 62, 0.3);
+  transition: all 0.5s;
+}
+
+.find-col {
+  display: flex;
+  justify-content: center;
+}
+
+.find-card:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.find-card .find-card-img img {
+  width: 100%;
+  height: 75%;
+  background-size: cover;
+  border-radius: 0.5rem 0.5rem 0 0;
+  margin-bottom: 1.6rem;
+}
+
+.find-img-name {
+  font-size: 1.6rem;
+  color: #1A1A1A;
+  text-align: center;
+}
+
+/***************************************** card-section ****************************************************/
+
+.section-card {
+  padding: 2.4rem 3.2rem !important;
+  margin: 3.6rem 0 !important;
+  background-color: #fff;
+  box-shadow: inset 0 0.1rem 0.3rem rgba(0, 0, 0, 0.18),
+    0 0.1rem 0.1rem 0 rgba(0, 0, 0, 0.17);
+  min-width: 28rem;
+}
+
+.card-heading {
+  font-size: 2.4rem !important;
+  text-transform: uppercase;
+}
+
+.card {
+  margin-top: 2.4rem !important;
+  padding: 0 !important;
+  width: 25rem !important;
+  height: 30rem !important;
+  background-color: #f0f2f4 !important;
+  box-shadow: 0 0 0.1rem 0.1rem rgba(62, 62, 62, 0.2);
+  transition: all 0.5s ease;
+}
+
+.card-detail {
+  padding: 0.6rem !important;
+}
+
+.card-detail p {
+  margin-bottom: 0.6rem !important;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.card img {
+  width: 100%;
+  height: 50%;
+  background-size: cover !important;
+}
+
+.vehical-name {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.vehical-type {
+  font-size: 1.2rem;
+  color: #878f97;
+}
+
+.vehical-price {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.vehical-price span {
+  color: #878f97;
+  font-weight: normal;
+}
+
+.detail-btn:link,
+.detail-btn:visited {
+  display: inline-block;
+  background-color: #03071e;
+  padding: 0.4rem 1.2rem !important;
+  margin-top: 1rem;
+  text-align: center;
+  border-radius: 0.3rem;
+  transition: all 0.3s;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.6rem;
+}
+
+.detail-btn:hover,
+.detail-btn:active {
+  background-color: #66778b !important;
+  box-shadow: inset 0 0 0 1px #000;
+}
+
+.view-link {
+  margin-top: 2.4rem;
+  align-self: center;
+}
+
+.view-btn {
+  text-decoration: underline;
+  color: #03071e !important;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.view-btn:hover,
+.view-btn:visited {
+  text-shadow: 0 0.2rem 0.1rem rgba(62, 62, 62, 0.5) !important;
+}
+
+/******************************************** Footer Section ***********************************************/
+.footer {
+  padding: 3.6rem 2.4rem 1.2rem 2.4rem;
+  background-color: #03071e !important;
+  height: auto;
+  min-width: 28rem;
+}
+
+.footer-desc {
+  color: #99a0a8;
+  margin-top: 1.2rem;
+  line-height: 1.3;
+  font-size: 1.4rem;
+}
+
+.address {
+  color: #fff;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  padding-top: 0.5rem;
+}
+
+.address-detail {
+  padding-top: 0.5rem;
+}
+
+.address-detail p {
+  color: #99a0a8;
+  line-height: 1.1;
+  font-size: 1.6rem;
+}
+
+.footer-nav-text {
+  padding-top: 0.5rem;
+  color: #fff;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+}
+
+.footer-nav-list {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding-top: 0.5rem !important;
+}
+
+.footer-nav-link:link,
+.footer-nav-link:visited {
+  text-decoration: none;
+  color: #99a0a8;
+  font-size: 1.6rem;
+}
+
+.footer-nav-link:hover,
+.footer-nav-link:active {
+  text-decoration: underline 0.5px white;
+  color: #99a0a8;
+}
+
+.social-head {
+  padding-top: 0.5rem;
+  color: #fff;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+}
+
+.social-icons {
+  padding-top: 0.5rem;
+  padding-bottom: 1.2rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.social-icon {
+  width: 2.4rem !important;
+  height: 2.4rem;
+  background-color: #c4c5c7;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.copyright-text {
+  color: #99a0a8;
+  font-size: 1.4rem;
+}
+
+
+/******************************* Media Queries  ***********************************/
+@media only screen and (width<992px) {
+  #main-nav {
+    gap: 1.6rem;
+    margin: 1.2rem;
+  }
+
+  #navbarNavDropdown {
+    padding: 2.4rem 0;
+  }
+
+  .hero-heading {
+    font-size: 3rem;
+  }
+
+  .hero-description {
+    font-size: 1.4rem;
+  }
+
+  .hero-btn:link,
+  .hero-btn:visited {
+    font-size: 1.4rem;
+    padding: 1.2rem 2.4rem;
+
+  }
+
+  .about-description {
+    font-size: 1.6rem !important;
+  }
+}
+
+@media only screen and (width<768px) {
+  .hero {
+    background-color: #99a5b1 !important;
+    background-image: none;
+    text-align: center;
+  }
+
+  .hero-img {
+    width: 70%;
+    margin-top: 5rem;
+  }
+
+  .about-description {
+    font-weight: normal;
+    line-height: 1.2;
+  }
+}
+
+@media only screen and (width<500px) {
+  .hero-img {
+    width: 100%;
+  }
+
+  .about-heading {
+    font-size: 2.4rem;
+  }
+}
